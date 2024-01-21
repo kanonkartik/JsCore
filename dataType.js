@@ -12,3 +12,15 @@ console.log(typeof undefined)//undefine
 
 console.log(typeof null)// object
 //https://262.ecma-international.org/5.1/#sec-11.4.3
+
+const myobj= {
+    name:"kk",
+    age:23
+}
+console.log(typeof myobj)
+
+const fun = function(){
+    console.log("hey there")
+}
+
+console.log(typeof fun)
